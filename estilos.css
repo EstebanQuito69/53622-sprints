@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+.body-Index{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(./assets/bg.jpg) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+}
+
+.body-Registro {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: url(./assets/bg.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.registro {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:rgba(255,255,255,0.1);
+    border-radius:6px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:40px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px black;
+    display: flex;
+    position: absolute;
+    margin-left: 40%;
+}
+.padre {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 95%;
+    width: 25%;
+  }
+.hijo {
+    position: absolute;
+    background-color:rgba(255,255,255,0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 4px 53px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    height: 100%;
+  }
+
+.landig_navbar {
+    position: absolute; 
+    border-radius: 11px;
+    height: 100%;
+}
+
+#navbar_logo {
+    width: 70%;
+    margin: 50px;
+}
+
+#btn_irRegistro {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:rgba(255,255,255,0.3);
+    border-radius:6px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    display: flex; 
+    position: relative;
+    top: 20%;
+    margin: 100px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub-title__2 {
+    text-align: justify;
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    color: black;
+}
+
+.sub-title__3 {
+    text-align: justify;
+    position: absolute;
+    top: 0%;
+    left: 60%;
+    color: black;
+}
+.list {
+    margin: 50px;
+    position: absolute;
+    top: 40%;
+
+}

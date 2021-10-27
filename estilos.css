@@ -9,6 +9,12 @@
     height: 100vh;
 }
 
+.slogan {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+}
+
 .body-Registro {
     font-family: 'Source Sans Pro', sans-serif;
     background: url(./assets/bg.jpg) no-repeat center top;
@@ -22,15 +28,6 @@
     text-shadow: none;
     font-weight: bold;
     font-size: 300%;
-}
-
-.title-global_1 {
-    position: absolute;
-    top: 90px;
-    left: 60%;
-    text-shadow: none;
-    font-weight: bold;
-    font-size: 120%;
 }
 
 .registro {
@@ -143,4 +140,21 @@ a {
     position: absolute;
     top: 40%;
 
+}
+
+#in_usuario {
+    position: absolute;
+    left: 23%;
+    top: 35%;
+}
+
+#in_contrasena {
+    position: absolute;
+    left: 23%;
+}
+
+#enviar {
+    position: absolute;
+    left: 30%;
+    top: 65%;
 }
